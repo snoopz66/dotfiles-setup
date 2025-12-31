@@ -33,6 +33,7 @@ INSTALL_PKGS=(
   telegram-desktop
   reaper
   reapack
+  xwayland-satellite
 )
 
 # AUR installs
@@ -148,4 +149,3 @@ main() {
 }
 
 main "$@"
-
