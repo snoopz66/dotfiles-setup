@@ -65,7 +65,7 @@ tooltip {
 }
 
 #clock {
-    margin-left: 8.75px;
+    margin-left: 5px;
 }
 
 .hidden {
@@ -98,4 +98,13 @@ tooltip {
 }
 
 .modules-right {
+}
+
+#custom-voxtype {
+  min-width: 12px;
+  margin: 0 0 0 7.5px;
+}
+
+#custom-voxtype.recording {
+  color: #a55555;
 }

@@ -2,7 +2,7 @@
 -- LICENSE: LGPL v2 or later - http://www.gnu.org/licenses/lgpl.html
 
 sTitle = 'Default 7.0 Theme Adjuster'
-scriptVersion = 240503
+scriptVersion = 251214
 reaper.ClearConsole()
 
 OS = reaper.GetOS()

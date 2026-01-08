@@ -31,6 +31,7 @@ Type=oneshot
 ExecStart=/usr/bin/pw-metadata -n settings 0 clock.force-rate 48000
 ExecStart=/usr/bin/pw-metadata -n settings 0 clock.force-quantum 64
 
+
 [Install]
 WantedBy=default.target
 EOF
@@ -48,7 +49,7 @@ echo " DONE"
 echo
 echo "Verify:"
 echo "  pw-metadata -n settings 0 | grep -E 'clock\\.force-rate|clock\\.force-quantum'"
-echo "  pw-top   # should show Quantum = 128"
+echo "  pw-top   # should show Quantum = 64"
 echo
 echo "Launch JACK router with:"
 echo "  qpwgraph"

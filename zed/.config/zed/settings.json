@@ -11,6 +11,10 @@
     "dock": "right"
   },
   "agent": {
+    "inline_assistant_model": {
+      "provider": "openai",
+      "model": "gpt-5.2"
+    },
     "play_sound_when_agent_done": true,
     "model_parameters": []
   },
